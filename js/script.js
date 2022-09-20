@@ -29,6 +29,13 @@ const app = new Vue(
                         console.log(result.response);
                         this.emails.push(result.response);
                     });
+            };
+            setTimeout(this.showEmailsLog, 1200);
+        },
+
+        methods: {
+            showEmailsLog() {
+                console.log(this.emails);
             }
         }
     }

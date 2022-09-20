@@ -18,7 +18,9 @@ body {
 
 /* contents */
 
-
+ul {
+    list-style-type: none;
+}
 
 
 /* effects */
